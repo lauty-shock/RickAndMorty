@@ -1,0 +1,42 @@
+.containerSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 40px;
+
+    background-color: var(--White);
+    border-radius: 2.4rem;
+    box-shadow: 1px 1px 3px 0px #595959;
+
+    width: 400px;
+    height: 46px;
+}
+
+.containerSearchFixed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--White);
+    border-radius: 2.4rem;
+    box-shadow: 1px 1px 3px 0px #595959;
+
+    width: 400px;
+    height: 46px;
+}
+
+.search{
+    border-radius: 2.4rem;
+    width: 85%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.icon{
+    margin-left: 10px;
+    font-size: 20px;
+}

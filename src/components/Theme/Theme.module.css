@@ -1,0 +1,41 @@
+.containerTheme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 30px;
+  right: 25px;
+
+  background-color: rgba(200, 200, 200, 0.8);
+  border-radius: 20px;
+
+  width: 100px;
+  height: 38px;
+
+  gap: 10px;
+}
+
+.containerThemeFixed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+
+  width: 100px;
+  height: 38px;
+
+  margin-left: 96px;
+
+  gap: 10px;
+}
+
+.theme {
+  background-color: var(--Dark);
+  border-radius: 50%;
+
+  width: 24px;
+  height: 24px;
+}

@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 5rem 1.4rem;
+  gap: 1.5rem;
+}
+
+.containerCharacter {
+  background-color: rgba(255, 255, 255, 0.04);
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0 0 4px var(--Gray);
+  width: 407px;
+  height: 245px;
+  cursor: pointer;
+  transition: .15s;
+}
+.containerCharacter:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.image {
+  border-radius: 8px 0 0 8px;
+  object-fit: cover;
+  width: 40%;
+  height: 100%;
+  user-select: none;
+}
+
+.sectionData {
+  width: 60%;
+  height: 100%;
+  padding: 20px;
+}
+
+.name {
+  font-size: 24px;
+  margin: 0 0 12px;
+  color: var(--White);
+}
+
+.status {
+  display: flex;
+  align-items: baseline;
+  color: var(--White);
+  width: 205px;
+  height: 21px;
+  margin-bottom: 4px;
+}
+
+.Alive,
+.Dead,
+.unknown {
+  background-color: var(--Alive);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+.Dead {
+  background-color: var(--Dead);
+}
+.unknown {
+  background-color: var(--Unknown);
+}
+.gender {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+}
+.genderGray {
+  font-size: 13px;
+  color: var(--Gray);
+}
+
+.genderWhite {
+  color: var(--White);
+}

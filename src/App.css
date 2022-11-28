@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+
+  --Alive: rgb(85, 203, 68);
+  --Dead: rgb(213, 61, 46);
+  --Unknown: rgb(203, 201, 68);
+  --Dark: rgb(14, 26, 39);
+  --White: rgb(251, 251, 251);
+  --Gray: rgb(130, 130, 130);
+}
+
+.App {
+  background-image: url(./img/bg-dark.png);
+  background-attachment: fixed;
+}
